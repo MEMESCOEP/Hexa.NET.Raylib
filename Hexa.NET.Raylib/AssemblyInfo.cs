@@ -9,5 +9,6 @@ using System.Runtime.CompilerServices;
 
 [assembly: NativeLibrary("raylib", TargetPlatform.Windows)]
 [assembly: NativeLibrary("libraylib", TargetPlatform.Linux)]
+[assembly: NativeLibrary("libraylib", TargetPlatform.FreeBSD)]
 [assembly: NativeLibrary("libraylib", TargetPlatform.OSX)]
 [assembly: NativeLibrary("libraylib", TargetPlatform.Android)]
