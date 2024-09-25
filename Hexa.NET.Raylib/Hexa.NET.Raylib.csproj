@@ -74,6 +74,12 @@
 			<PackagePath>runtimes/linux-x64/native</PackagePath>
 			<Pack>true</Pack>
 		</None>
+		<None Include="native\freebsd-x64\libraylib.so">
+			<Link>runtimes\freebsd-x64\native\%(RecursiveDir)%(Filename)%(Extension)</Link>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<PackagePath>runtimes/freebsd-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</None>
 		<!--<None Include="native\win-arm64\raylib.dll">
 			<Link>runtimes\win-arm64\native\%(RecursiveDir)%(Filename)%(Extension)</Link>
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
